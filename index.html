@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o CSS do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Link para o arquivo CSS personalizado -->
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Search bar</title>
+</head>
+<body>
+    <div id="container">
+        <!-- Input de pesquisa -->
+        <div class="input-group">
+            <!-- Ícone da lupa -->
+            <div class="input-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <!-- Campo de input de pesquisa -->
+            <input 
+                id="search" 
+                type="text" 
+                class="input-field" 
+                placeholder="Pesquisar"
+            >
+        </div>
+    
+        <!-- Lista de itens -->
+        <ul class="items">
+            <!-- Item 1 -->
+            <li class="item">
+                <!-- Imagem do item -->
+                <div class="item-image">
+                    <img src="src/images/avangers.jpg" alt="Avangers poster">
+                </div>
+
+                <!-- Conteúdo do item -->
+                <div class="item-content">
+                    <!-- Título -->
+                    <h2 class="item-title">Avangers</h2>
+
+                    <!-- Subtítulo -->
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        Filme (2019)
+                    </p>
+
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                    </p>
+                </div>
+            </li>
+
+            <!-- Item 2 -->
+            <li class="item">
+                <!-- Imagem do item -->
+                <div class="item-image">
+                    <img src="src/images/harry-potter.png" alt="Harry Potter poster">
+                </div>
+
+                <!-- Conteúdo do item -->
+                <div class="item-content">
+                    <!-- Título -->
+                    <h2 class="item-title">Harry Potter</h2>
+
+                    <!-- Subtítulo -->
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        Filme (2001)
+                    </p>
+
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                    </p>
+                </div>
+            </li>
+
+            <!-- Item 3 -->
+            <li class="item">
+                <!-- Imagem do item -->
+                <div class="item-image">
+                    <img src="src/images/duna.jpg" alt="Duna poster">
+                </div>
+
+                <!-- Conteúdo do item -->
+                <div class="item-content">
+                    <!-- Título -->
+                    <h2 class="item-title">Duna 2</h2>
+
+                    <!-- Subtítulo -->
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        Filme (2024)
+                    </p>
+
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                    </p>
+                </div>
+            </li>
+
+            <!-- Mensagem "nenhum resultado encontrado" -->
+            <li id="no_results">
+                <p>Nenhum resultado encontrado</p>
+            </li>
+        </ul>
+    </div>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
